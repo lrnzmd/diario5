@@ -30,9 +30,19 @@ class MainActivity : AppCompatActivity() {
         val i = Intent(Intent.ACTION_EDIT)
         i.type = "vnd.android.cursor.item/event"
         i.putExtra("beginTime", calendarEvent.getTimeInMillis())
-        i.putExtra("allDay", true)
+        i.putExtra("allDay", false)
         i.putExtra("rule", "FREQ=YEARLY")
         i.putExtra("endTime", calendarEvent.getTimeInMillis() + 60 * 60 * 1000)
+        i.putExtra("title", "Calendar Event")
+        startActivity(i)
+    }
+
+    fun AddHomeWork(view: View?) {
+        val calendarEvent: Calendar = Calendar.getInstance()
+        val i = Intent(Intent.ACTION_EDIT)
+        i.type = "vnd.android.cursor.item/event"
+        i.putExtra("allDay", false)
+        i.putExtra("rule", "FREQ=YEARLY")
         i.putExtra("title", "Calendar Event")
         startActivity(i)
     }
