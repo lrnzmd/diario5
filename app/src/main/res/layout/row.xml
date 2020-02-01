@@ -9,7 +9,8 @@
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
         android:gravity="end|bottom"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:background="@color/Orange">
 
         <TextView
             android:id="@+id/titleTv"

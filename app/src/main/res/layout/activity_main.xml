@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/sfonfohome"
     tools:context=".MainActivity">
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,49 +17,66 @@
             android:id="@+id/textview"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Diario di scuola"
+            android:text="Diario"
             android:textAlignment="center"
             android:textSize="36sp" />
 
         <Button
-            android:id="@+id/button1"
+            android:id="@+id/button3"
+            style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="64dp"
+            android:text="Appunti"
+            android:background="@drawable/bottonearancione"
+            android:textColor="@color/Black" />
+
+        <Button
+            android:id="@+id/button1"
+            style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+            android:textColor="@color/Black"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:background="@drawable/bottoneverde"
             android:text="lezioni" />
+
 
         <Button
             android:id="@+id/button2"
+            style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="64dp"
+            android:background="@drawable/bottonegiallo"
             android:onClick="AddHomeWork"
-            android:text="compiti" />
-
-        <Button
-            android:id="@+id/button3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="appunti" />
+            android:text="Aggiungi compiti"
+            android:textColor="@color/Black" />
 
         <Button
             android:id="@+id/button4"
+            style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+            android:textColor="@color/Black"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="64dp"
             android:onClick="AddCalendarEvent"
-            android:text="Add Calendar Event" />
+            android:background="@drawable/bottoneazzurro"
+            android:text="Aggiungi appuntamento" />
 
-        <Button
-            android:id="@+id/button5"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="notizie" />
+        <!--        <Button-->
+        <!--            android:id="@+id/button5"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:text="notizie" />-->
 
         <Button
             android:id="@+id/button6"
+            style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+            android:textColor="@color/Black"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="impostazioni"/>
+            android:layout_height="64dp"
+            android:background="@drawable/bottonerosa"
+            android:text="impostazioni" />
 
 
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+

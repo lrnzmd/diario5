@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import com.example.diario5.appunti.Appunti
+import com.example.diario5.lezioni.Lezioni
 import java.util.*
 
 
@@ -21,6 +22,18 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, Appunti::class.java)
             startActivity(intent)
         }
+
+        val button6 = findViewById<Button>(R.id.button6)
+        button6.setOnClickListener {
+            val intent = Intent(this, impostazioni::class.java)
+            startActivity(intent)
+        }
+        val button1 = findViewById<Button>(R.id.button1)
+        button1.setOnClickListener {
+            val intent = Intent(this, Lezioni::class.java)
+            startActivity(intent)
+        }
+
 
     }
 
