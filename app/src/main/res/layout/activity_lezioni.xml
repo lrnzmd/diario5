@@ -7,9 +7,45 @@
     tools:context=".lezioni.Lezioni"
     android:background="@drawable/sky">
 
-    <CalendarView
-        android:id="@+id/calendarView"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/lunedi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="lunedi" />
+
+        <Button
+            android:id="@+id/martedi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="martedi" />
+
+        <Button
+            android:id="@+id/mercoledi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="mercoledi" />
+
+        <Button
+            android:id="@+id/giovedi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="giovedi" />
+
+        <Button
+            android:id="@+id/venerdi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="venerdi" />
+
+        <Button
+            android:id="@+id/sabato"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="sabato" />
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
