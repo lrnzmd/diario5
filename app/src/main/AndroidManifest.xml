@@ -9,14 +9,27 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"></activity>
-        <activity android:name=".SplashActivity">
+        <activity android:name=".lezioni.giorni.Sabato"></activity>
+        <activity android:name=".lezioni.giorni.Venerdi" />
+        <activity android:name=".lezioni.giorni.Giovedi" />
+        <activity android:name=".lezioni.giorni.Mercoledi" />
+        <activity android:name=".lezioni.giorni.Martedi" />
+        <activity android:name=".lezioni.giorni.Lunedi" />
+        <activity android:name=".lezioni.Settimana" />
+        <activity android:name=".impostazioni" />
+        <activity android:name=".spash.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".appunti.Appunti"
+            android:label="Appunti"
+            android:theme="@style/AppTheme2" />
+        <activity android:name=".appunti.AddNoteActivity" />
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
