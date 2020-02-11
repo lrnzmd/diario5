@@ -55,12 +55,9 @@ class Appunti : AppCompatActivity() {
         //set adapter
         notesLv.adapter = myNotesAdapter
 
-        //get total number of tasks from ListView
         val total = notesLv.count
-        //actionbar
         val mActionBar = supportActionBar
         if (mActionBar != null) {
-            //set to actionbar as subtitle of actionbar
             mActionBar.subtitle = "You have $total note(s) in list..."
         }
     }
@@ -95,43 +92,31 @@ class Appunti : AppCompatActivity() {
 
 
         override fun getView(position: Int, convertView: View?, parent: ViewGroup?): View {
-            //inflate layout row.xml
             var myView = layoutInflater.inflate(R.layout.row, null)
             val myNote = listNotesAdapter[position]
             myView.titleTv.text = myNote.nodeName
             myView.descTv.text = myNote.nodeDes
-            //delete button click
             myView.deleteBtn.setOnClickListener {
                 var dbManager = DbManager(this.context!!)
                 val selectionArgs = arrayOf(myNote.nodeID.toString())
                 dbManager.delete("ID=?", selectionArgs)
                 LoadQuery("%")
             }
-            //edit//update button click
             myView.editBtn.setOnClickListener {
                 GoToUpdateFun(myNote)
             }
-            //copy btn click
             myView.copyBtn.setOnClickListener {
-                //get title
                 val title = myView.titleTv.text.toString()
-                //get description
                 val desc = myView.descTv.text.toString()
-                //concatinate
                 val s = title + "\n" + desc
                 val cb = getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
-                cb.text = s // add to clipboard
+                cb.text = s
                 Toast.makeText(this@Appunti, "Copied...", Toast.LENGTH_SHORT).show()
             }
-            //share btn click
             myView.shareBtn.setOnClickListener {
-                //get title
                 val title = myView.titleTv.text.toString()
-                //get description
                 val desc = myView.descTv.text.toString()
-                //concatenate
                 val s = title + "\n" + desc
-                //share intent
                 val shareIntent = Intent()
                 shareIntent.action = Intent.ACTION_SEND
                 shareIntent.type = "text/plain"

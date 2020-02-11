@@ -12,10 +12,4 @@ class Lunedi : AppCompatActivity() {
         setContentView(R.layout.activity_lunedi)
     }
 
-    override fun onRestoreInstanceState(savedInstanceState: Bundle) {
-        super.onRestoreInstanceState(savedInstanceState)
-        // Restore UI state from the savedInstanceState.
-// This bundle has also been passed to onCreate
-        val myString = savedInstanceState.getString("MyString")
-    }
 }
