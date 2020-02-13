@@ -1,4 +1,4 @@
-package com.example.diario5.lezioni
+package com.example.diario5.lezioni.db
 
 import android.content.Context
 import androidx.room.Database

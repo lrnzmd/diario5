@@ -1,7 +1,7 @@
-package com.example.diario5.lezioni
+package com.example.diario5.lezioni.db
 
 import androidx.room.*
-import com.example.diario5.lezioni.Lezioni
+import com.example.diario5.lezioni.db.Lezioni
 
 @Dao
 interface LezioniDao {

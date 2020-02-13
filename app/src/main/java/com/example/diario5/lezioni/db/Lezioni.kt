@@ -1,4 +1,4 @@
-package com.example.diario5.lezioni
+package com.example.diario5.lezioni.db
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
@@ -12,4 +12,7 @@ class Lezioni {
 
     @ColumnInfo(name = "lezione")
     var lezione: String? = null
+
+    @ColumnInfo(name = "giorno")
+    var giorno: String? = null
 }
