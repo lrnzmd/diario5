@@ -8,19 +8,27 @@ interface LezioniDao {
     @Query("SELECT * FROM lezioni")
     fun getAll(): Array<Lezioni>
 
-    @Query(value = "SELECT * FROM lezioni ORDER BY orario")
+    @Query("SELECT * FROM lezioni ORDER BY orario")
     fun findByOrario(orario: Int): Lezioni
 
+    @Query("SELECT * FROM lezioni ORDER BY giorno")
+    fun findByGiorno(giorno: String): Lezioni
+
     @Insert
-    fun insertLezione(vararg lezione: Lezioni)
+    fun insertMateria(vararg materia: Lezioni)
 
     @Insert
     fun insertOrario(vararg orario: Lezioni)
 
-    @Delete
-    fun delete(lezioni: Lezioni)
+    @Insert
+    fun insertGiorno(vararg giorno: Lezioni)
 
     @Update
     fun updateLezioni(vararg lezioni: Lezioni)
+
+    @Delete
+    fun delete(lezioni: Lezioni)
+
+
 
 }

@@ -10,8 +10,8 @@ class Lezioni {
     @ColumnInfo(name = "orario")
     var orario: Int? = null
 
-    @ColumnInfo(name = "lezione")
-    var lezione: String? = null
+    @ColumnInfo(name = "materia")
+    var materia: String? = null
 
     @ColumnInfo(name = "giorno")
     var giorno: String? = null
