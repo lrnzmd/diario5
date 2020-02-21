@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">diario</string>
+
+    <string-array name="Giorno">
+        <item>Lunedi</item>
+        <item>Martedi</item>
+        <item>Mercoledi</item>
+        <item>Giovedi</item>
+        <item>Venerdi</item>
+        <item>Sabato</item>
+    </string-array>
 </resources>

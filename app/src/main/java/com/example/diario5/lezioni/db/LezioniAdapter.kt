@@ -9,13 +9,12 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.example.diario5.R
-import kotlinx.android.synthetic.main.lezione.view.*
-import org.w3c.dom.Text
+import com.example.diario5.lezioni.giorni.Lunedi
 
-class LezioniAdapter(var lezioni: ArrayList<Lezioni>) :
-    ListAdapter<Lezioni, LezioniAdapter.LezioniViewHolder>(LezioniDiffCallback) {
+class LezioniAdapter(var lezioni: Lunedi) :
+    ListAdapter<Lezioni, LezioniAdapter.LezioniViewHolder>(LezioniDiffCallback()) {
 
-    private val lezioniinfo = arrayListOf(lezioni)
+    private var lezioniinfo = emptyList<Lezioni>()
 
 
     inner class LezioniViewHolder(itemview: View) : RecyclerView.ViewHolder(itemview) {
@@ -34,13 +33,11 @@ class LezioniAdapter(var lezioni: ArrayList<Lezioni>) :
     }
 
     override fun onBindViewHolder(holder: LezioniViewHolder, position: Int) {
-        val item = lezioniinfo(position)
-        holder.materia.text = item.asigned_materia.toString()
-        holder.orario.text = item.asigned_orario.toString()
-
+        val item = lezioniinfo[position]
+        holder.materia.text = item.materia
+        holder.orario.text = item.orario.toString()
     }
 }
-
 
 class LezioniDiffCallback : DiffUtil.ItemCallback<Lezioni>() {
     override fun areItemsTheSame(oldItem: Lezioni, newItem: Lezioni): Boolean {

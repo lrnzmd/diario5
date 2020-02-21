@@ -25,7 +25,8 @@
         <activity android:name="com.example.diario5.lezioni.giorni.Mercoledi" />
         <activity android:name="com.example.diario5.lezioni.giorni.Martedi" />
         <activity android:name="com.example.diario5.lezioni.giorni.Lunedi" />
-        <activity android:name="com.example.diario5.lezioni.Lezioni" />
+        <activity android:name="com.example.diario5.lezioni.Settimana" />
+        <activity android:name="com.example.diario5.lezioni.New_Lezione" />
         <activity android:name="com.example.diario5.impostazioni" />
         <activity android:name="com.example.diario5.spash.SplashActivity" >
             <intent-filter>
@@ -40,6 +41,16 @@
             android:theme="@style/AppTheme2" />
         <activity android:name="com.example.diario5.appunti.AddNoteActivity" />
         <activity android:name="com.example.diario5.MainActivity" />
+
+        <service
+            android:name="androidx.room.MultiInstanceInvalidationService"
+            android:exported="false" />
+
+        <provider
+            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="com.example.diario5.lifecycle-process"
+            android:exported="false"
+            android:multiprocess="true" />
     </application>
 
 </manifest>

@@ -6,80 +6,101 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="22"
-8-->F:\Nuova cartella\diario5\app\src\main\AndroidManifest.xml
+8-->C:\Users\lrnzm\OneDrive\diario5\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->F:\Nuova cartella\diario5\app\src\main\AndroidManifest.xml
+9-->C:\Users\lrnzm\OneDrive\diario5\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->F:\Nuova cartella\diario5\app\src\main\AndroidManifest.xml:5:5-33:19
+11-->C:\Users\lrnzm\OneDrive\diario5\app\src\main\AndroidManifest.xml:5:5-34:19
 12        android:allowBackup="true"
-12-->F:\Nuova cartella\diario5\app\src\main\AndroidManifest.xml:6:9-35
+12-->C:\Users\lrnzm\OneDrive\diario5\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 13-->[androidx.core:core:1.1.0] C:\Users\lrnzm\.gradle\caches\transforms-2\files-2.1\df2ac4fe6b88cbdd1c862077d2fdf1ec\core-1.1.0\AndroidManifest.xml:24:18-86
 14        android:debuggable="true"
 15        android:icon="@mipmap/ic_launcher"
-15-->F:\Nuova cartella\diario5\app\src\main\AndroidManifest.xml:7:9-43
+15-->C:\Users\lrnzm\OneDrive\diario5\app\src\main\AndroidManifest.xml:7:9-43
 16        android:label="@string/app_name"
-16-->F:\Nuova cartella\diario5\app\src\main\AndroidManifest.xml:8:9-41
+16-->C:\Users\lrnzm\OneDrive\diario5\app\src\main\AndroidManifest.xml:8:9-41
 17        android:roundIcon="@mipmap/ic_launcher_round"
-17-->F:\Nuova cartella\diario5\app\src\main\AndroidManifest.xml:9:9-54
+17-->C:\Users\lrnzm\OneDrive\diario5\app\src\main\AndroidManifest.xml:9:9-54
 18        android:supportsRtl="true"
-18-->F:\Nuova cartella\diario5\app\src\main\AndroidManifest.xml:10:9-35
+18-->C:\Users\lrnzm\OneDrive\diario5\app\src\main\AndroidManifest.xml:10:9-35
 19        android:testOnly="true"
 20        android:theme="@style/AppTheme" >
-20-->F:\Nuova cartella\diario5\app\src\main\AndroidManifest.xml:11:9-40
+20-->C:\Users\lrnzm\OneDrive\diario5\app\src\main\AndroidManifest.xml:11:9-40
 21        <activity android:name="com.example.diario5.lezioni.giorni.Sabato" />
-21-->F:\Nuova cartella\diario5\app\src\main\AndroidManifest.xml:12:9-68
-21-->F:\Nuova cartella\diario5\app\src\main\AndroidManifest.xml:12:19-56
+21-->C:\Users\lrnzm\OneDrive\diario5\app\src\main\AndroidManifest.xml:12:9-68
+21-->C:\Users\lrnzm\OneDrive\diario5\app\src\main\AndroidManifest.xml:12:19-56
 22        <activity android:name="com.example.diario5.lezioni.giorni.Venerdi" />
-22-->F:\Nuova cartella\diario5\app\src\main\AndroidManifest.xml:13:9-60
-22-->F:\Nuova cartella\diario5\app\src\main\AndroidManifest.xml:13:19-57
+22-->C:\Users\lrnzm\OneDrive\diario5\app\src\main\AndroidManifest.xml:13:9-60
+22-->C:\Users\lrnzm\OneDrive\diario5\app\src\main\AndroidManifest.xml:13:19-57
 23        <activity android:name="com.example.diario5.lezioni.giorni.Giovedi" />
-23-->F:\Nuova cartella\diario5\app\src\main\AndroidManifest.xml:14:9-60
-23-->F:\Nuova cartella\diario5\app\src\main\AndroidManifest.xml:14:19-57
+23-->C:\Users\lrnzm\OneDrive\diario5\app\src\main\AndroidManifest.xml:14:9-60
+23-->C:\Users\lrnzm\OneDrive\diario5\app\src\main\AndroidManifest.xml:14:19-57
 24        <activity android:name="com.example.diario5.lezioni.giorni.Mercoledi" />
-24-->F:\Nuova cartella\diario5\app\src\main\AndroidManifest.xml:15:9-62
-24-->F:\Nuova cartella\diario5\app\src\main\AndroidManifest.xml:15:19-59
+24-->C:\Users\lrnzm\OneDrive\diario5\app\src\main\AndroidManifest.xml:15:9-62
+24-->C:\Users\lrnzm\OneDrive\diario5\app\src\main\AndroidManifest.xml:15:19-59
 25        <activity android:name="com.example.diario5.lezioni.giorni.Martedi" />
-25-->F:\Nuova cartella\diario5\app\src\main\AndroidManifest.xml:16:9-60
-25-->F:\Nuova cartella\diario5\app\src\main\AndroidManifest.xml:16:19-57
+25-->C:\Users\lrnzm\OneDrive\diario5\app\src\main\AndroidManifest.xml:16:9-60
+25-->C:\Users\lrnzm\OneDrive\diario5\app\src\main\AndroidManifest.xml:16:19-57
 26        <activity android:name="com.example.diario5.lezioni.giorni.Lunedi" />
-26-->F:\Nuova cartella\diario5\app\src\main\AndroidManifest.xml:17:9-59
-26-->F:\Nuova cartella\diario5\app\src\main\AndroidManifest.xml:17:19-56
-27        <activity android:name="com.example.diario5.lezioni.Lezioni" />
-27-->F:\Nuova cartella\diario5\app\src\main\AndroidManifest.xml:18:9-53
-27-->F:\Nuova cartella\diario5\app\src\main\AndroidManifest.xml:18:19-50
-28        <activity android:name="com.example.diario5.impostazioni" />
-28-->F:\Nuova cartella\diario5\app\src\main\AndroidManifest.xml:19:9-50
-28-->F:\Nuova cartella\diario5\app\src\main\AndroidManifest.xml:19:19-47
-29        <activity android:name="com.example.diario5.spash.SplashActivity" >
-29-->F:\Nuova cartella\diario5\app\src\main\AndroidManifest.xml:20:9-26:20
-29-->F:\Nuova cartella\diario5\app\src\main\AndroidManifest.xml:20:19-55
-30            <intent-filter>
-30-->F:\Nuova cartella\diario5\app\src\main\AndroidManifest.xml:21:13-25:29
-31                <action android:name="android.intent.action.MAIN" />
-31-->F:\Nuova cartella\diario5\app\src\main\AndroidManifest.xml:22:17-69
-31-->F:\Nuova cartella\diario5\app\src\main\AndroidManifest.xml:22:25-66
-32
-33                <category android:name="android.intent.category.LAUNCHER" />
-33-->F:\Nuova cartella\diario5\app\src\main\AndroidManifest.xml:24:17-77
-33-->F:\Nuova cartella\diario5\app\src\main\AndroidManifest.xml:24:27-74
-34            </intent-filter>
-35        </activity>
-36        <activity
-36-->F:\Nuova cartella\diario5\app\src\main\AndroidManifest.xml:27:9-30:48
-37            android:name="com.example.diario5.appunti.Appunti"
-37-->F:\Nuova cartella\diario5\app\src\main\AndroidManifest.xml:28:13-44
-38            android:label="Appunti"
-38-->F:\Nuova cartella\diario5\app\src\main\AndroidManifest.xml:29:13-36
-39            android:theme="@style/AppTheme2" />
-39-->F:\Nuova cartella\diario5\app\src\main\AndroidManifest.xml:30:13-45
-40        <activity android:name="com.example.diario5.appunti.AddNoteActivity" />
-40-->F:\Nuova cartella\diario5\app\src\main\AndroidManifest.xml:31:9-61
-40-->F:\Nuova cartella\diario5\app\src\main\AndroidManifest.xml:31:19-58
-41        <activity android:name="com.example.diario5.MainActivity" />
-41-->F:\Nuova cartella\diario5\app\src\main\AndroidManifest.xml:32:9-50
-41-->F:\Nuova cartella\diario5\app\src\main\AndroidManifest.xml:32:19-47
-42    </application>
+26-->C:\Users\lrnzm\OneDrive\diario5\app\src\main\AndroidManifest.xml:17:9-59
+26-->C:\Users\lrnzm\OneDrive\diario5\app\src\main\AndroidManifest.xml:17:19-56
+27        <activity android:name="com.example.diario5.lezioni.Settimana" />
+27-->C:\Users\lrnzm\OneDrive\diario5\app\src\main\AndroidManifest.xml:18:9-55
+27-->C:\Users\lrnzm\OneDrive\diario5\app\src\main\AndroidManifest.xml:18:19-52
+28        <activity android:name="com.example.diario5.lezioni.New_Lezione" />
+28-->C:\Users\lrnzm\OneDrive\diario5\app\src\main\AndroidManifest.xml:19:9-56
+28-->C:\Users\lrnzm\OneDrive\diario5\app\src\main\AndroidManifest.xml:19:19-54
+29        <activity android:name="com.example.diario5.impostazioni" />
+29-->C:\Users\lrnzm\OneDrive\diario5\app\src\main\AndroidManifest.xml:20:9-50
+29-->C:\Users\lrnzm\OneDrive\diario5\app\src\main\AndroidManifest.xml:20:19-47
+30        <activity android:name="com.example.diario5.spash.SplashActivity" >
+30-->C:\Users\lrnzm\OneDrive\diario5\app\src\main\AndroidManifest.xml:21:9-27:20
+30-->C:\Users\lrnzm\OneDrive\diario5\app\src\main\AndroidManifest.xml:21:19-55
+31            <intent-filter>
+31-->C:\Users\lrnzm\OneDrive\diario5\app\src\main\AndroidManifest.xml:22:13-26:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->C:\Users\lrnzm\OneDrive\diario5\app\src\main\AndroidManifest.xml:23:17-69
+32-->C:\Users\lrnzm\OneDrive\diario5\app\src\main\AndroidManifest.xml:23:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->C:\Users\lrnzm\OneDrive\diario5\app\src\main\AndroidManifest.xml:25:17-77
+34-->C:\Users\lrnzm\OneDrive\diario5\app\src\main\AndroidManifest.xml:25:27-74
+35            </intent-filter>
+36        </activity>
+37        <activity
+37-->C:\Users\lrnzm\OneDrive\diario5\app\src\main\AndroidManifest.xml:28:9-31:48
+38            android:name="com.example.diario5.appunti.Appunti"
+38-->C:\Users\lrnzm\OneDrive\diario5\app\src\main\AndroidManifest.xml:29:13-44
+39            android:label="Appunti"
+39-->C:\Users\lrnzm\OneDrive\diario5\app\src\main\AndroidManifest.xml:30:13-36
+40            android:theme="@style/AppTheme2" />
+40-->C:\Users\lrnzm\OneDrive\diario5\app\src\main\AndroidManifest.xml:31:13-45
+41        <activity android:name="com.example.diario5.appunti.AddNoteActivity" />
+41-->C:\Users\lrnzm\OneDrive\diario5\app\src\main\AndroidManifest.xml:32:9-61
+41-->C:\Users\lrnzm\OneDrive\diario5\app\src\main\AndroidManifest.xml:32:19-58
+42        <activity android:name="com.example.diario5.MainActivity" />
+42-->C:\Users\lrnzm\OneDrive\diario5\app\src\main\AndroidManifest.xml:33:9-50
+42-->C:\Users\lrnzm\OneDrive\diario5\app\src\main\AndroidManifest.xml:33:19-47
 43
-44</manifest>
+44        <service
+44-->[androidx.room:room-runtime:2.2.1] C:\Users\lrnzm\.gradle\caches\transforms-2\files-2.1\c382ca2268e1ddf0b3f31b03383f7250\room-runtime-2.2.1\AndroidManifest.xml:25:9-27:40
+45            android:name="androidx.room.MultiInstanceInvalidationService"
+45-->[androidx.room:room-runtime:2.2.1] C:\Users\lrnzm\.gradle\caches\transforms-2\files-2.1\c382ca2268e1ddf0b3f31b03383f7250\room-runtime-2.2.1\AndroidManifest.xml:26:13-74
+46            android:exported="false" />
+46-->[androidx.room:room-runtime:2.2.1] C:\Users\lrnzm\.gradle\caches\transforms-2\files-2.1\c382ca2268e1ddf0b3f31b03383f7250\room-runtime-2.2.1\AndroidManifest.xml:27:13-37
+47
+48        <provider
+48-->[androidx.lifecycle:lifecycle-process:2.2.0-rc02] C:\Users\lrnzm\.gradle\caches\transforms-2\files-2.1\64e64e64dc4a7f72a42155c3d899c336\lifecycle-process-2.2.0-rc02\AndroidManifest.xml:25:9-29:43
+49            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+49-->[androidx.lifecycle:lifecycle-process:2.2.0-rc02] C:\Users\lrnzm\.gradle\caches\transforms-2\files-2.1\64e64e64dc4a7f72a42155c3d899c336\lifecycle-process-2.2.0-rc02\AndroidManifest.xml:26:13-79
+50            android:authorities="com.example.diario5.lifecycle-process"
+50-->[androidx.lifecycle:lifecycle-process:2.2.0-rc02] C:\Users\lrnzm\.gradle\caches\transforms-2\files-2.1\64e64e64dc4a7f72a42155c3d899c336\lifecycle-process-2.2.0-rc02\AndroidManifest.xml:27:13-69
+51            android:exported="false"
+51-->[androidx.lifecycle:lifecycle-process:2.2.0-rc02] C:\Users\lrnzm\.gradle\caches\transforms-2\files-2.1\64e64e64dc4a7f72a42155c3d899c336\lifecycle-process-2.2.0-rc02\AndroidManifest.xml:28:13-37
+52            android:multiprocess="true" />
+52-->[androidx.lifecycle:lifecycle-process:2.2.0-rc02] C:\Users\lrnzm\.gradle\caches\transforms-2\files-2.1\64e64e64dc4a7f72a42155c3d899c336\lifecycle-process-2.2.0-rc02\AndroidManifest.xml:29:13-40
+53    </application>
+54
+55</manifest>

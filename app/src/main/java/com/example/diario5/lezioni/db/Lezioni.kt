@@ -8,11 +8,11 @@ import androidx.room.PrimaryKey
 class Lezioni {
     @PrimaryKey
     @ColumnInfo(name = "orario")
-    var orario: Int? = null
+    var orario: String = ""
 
     @ColumnInfo(name = "materia")
-    var materia: String? = null
+    var materia: String = ""
 
     @ColumnInfo(name = "giorno")
-    var giorno: String? = null
+    var giorno: String = ""
 }
