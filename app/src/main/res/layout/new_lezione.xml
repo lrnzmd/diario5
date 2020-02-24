@@ -13,11 +13,18 @@
         android:hint="orario inizio" />
 
     <EditText
+        android:id="@+id/edit_materia"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/edit_materia"
         android:hint="materia" />
 
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/Giorno"
+        android:visibility="visible" />
 
     <Button
         android:id="@+id/aggiungiBtn"

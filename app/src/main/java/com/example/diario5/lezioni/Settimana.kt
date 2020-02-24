@@ -7,6 +7,7 @@ import android.widget.Button
 import com.example.diario5.R
 import com.example.diario5.appunti.Appunti
 import com.example.diario5.lezioni.giorni.*
+import com.google.android.material.floatingactionbutton.FloatingActionButton
 
 class Settimana : AppCompatActivity() {
 
@@ -47,6 +48,12 @@ class Settimana : AppCompatActivity() {
         val sabato = findViewById<Button>(R.id.sabato)
         sabato.setOnClickListener {
             val intent = Intent(this, Sabato::class.java)
+            startActivity(intent)
+        }
+
+        val fab = findViewById<FloatingActionButton>(R.id.fab)
+        fab.setOnClickListener {
+            val intent = Intent(this, New_Lezione::class.java)
             startActivity(intent)
         }
 
